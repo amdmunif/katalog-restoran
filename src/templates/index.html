@@ -7,8 +7,13 @@
   <title>Restaurant Apps</title>
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/responsive.css">
+  <link rel="manifest" href="/app.webmanifest">
 </head>
 <body>
+
+  <!-- Anchor skip-to-content -->
+  <a href="#main" class="skip-content">Lewati ke konten utama</a>
+
   <header class="header__inner">
     <div class="logo">
       <h1>Restaurant Apps</h1>
@@ -39,7 +44,7 @@
   </div>
   <main>
     <section>
-      <div class="latest">
+      <div class="latest" id="main" tabindex="0">
         <h1 class="latest__label">Daftar Coffee Shop</h1>
         <div class="posts" id="content">
           <!-- content here -->
