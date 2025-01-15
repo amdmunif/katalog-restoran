@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const detailMovie = await response.json();
       console.log(detailMovie);
       // window.location.href('https://google.com');
-      // eslint-disable-next-line no-restricted-globals
+       
       location.replace('/detail');
     });
   }
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         height="280">
       <div class="post-item__content">
         <p class="post-item__city">${item.city}</p>
-        <h1 class="post-item__title"><a href="#" tabindex="5">${item.name}</a></h1>
+        <h1 class="post-item__title"><a href="#">${item.name}</a></h1>
         <p class="post-item__description">${item.description}</p>
         <button class="detail-button">Detail</button>
       </div>
